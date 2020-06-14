@@ -1,0 +1,10 @@
+export const FETCH_PRODUCT = 'FETCH_PRODUCT' ;
+export const SET_DETAIL_PRODUCT = 'SET_DETAIL_PRODUCT';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const ADD_TOTALS = 'ADD_TOTALS';
+export const CLEAR_CART = 'CLEAR_CART';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT'

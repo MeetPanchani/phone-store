@@ -37,7 +37,9 @@ export class CartTotals extends Component {
                                 <span className="text-title">total :</span>
                                 <strong>$ {this.props.cartTotal}</strong>
                             </h5>
-                            <ButtonContainer>CheckOut</ButtonContainer>
+                            <ButtonContainer onClick={() => {console.log('payment succes');
+                                 this.props.clearCart();
+                                 this.props.history.push('/');}}>CheckOut</ButtonContainer>
                         </div>
                     </div>
                 </div>

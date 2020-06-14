@@ -19,7 +19,7 @@ export default function(state = initialStates, action) {
             console.log(action.payload);
             return{
                 ...state,
-                products: action.payload,
+                products: action.payload,``
             }
         case SET_DETAIL_PRODUCT:
             const tempProduct = state.products.filter((product) => product.id == action.id)[0];

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bdb440af7d653822d5fb73bd962a877",
+    "revision": "636375a367b17332c0b4f7f03e39aa5b",
     "url": "/phone-store/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phone-store/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fdc15eb6ee8a3df811c2",
+    "revision": "52432f76757d0362d87e",
     "url": "/phone-store/static/css/main.cfa72b9c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phone-store/static/js/2.5c79f798.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdc15eb6ee8a3df811c2",
-    "url": "/phone-store/static/js/main.e0f41906.chunk.js"
+    "revision": "52432f76757d0362d87e",
+    "url": "/phone-store/static/js/main.87b5a911.chunk.js"
   },
   {
     "revision": "1b7649f34bcdee189ff0",

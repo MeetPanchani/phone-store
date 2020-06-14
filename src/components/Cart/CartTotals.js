@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { addTotals, clearCart } from '../../actions/productAction'
-import PayPalButton from './PayPalButton'
+import { ButtonContainer } from '../Button'
 
 export class CartTotals extends Component {
     componentDidMount() {
@@ -37,8 +37,7 @@ export class CartTotals extends Component {
                                 <span className="text-title">total :</span>
                                 <strong>$ {this.props.cartTotal}</strong>
                             </h5>
-                            <PayPalButton
-                                history={this.props.history}></PayPalButton>
+                            <ButtonContainer>CheckOut</ButtonContainer>
                         </div>
                     </div>
                 </div>

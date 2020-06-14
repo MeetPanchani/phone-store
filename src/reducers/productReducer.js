@@ -16,7 +16,6 @@ export default function(state = initialStates, action) {
     switch(action.type) { 
                    
         case FETCH_PRODUCT:
-            console.log(action.payload);
             return{
                 ...state,
                 products: action.payload,
